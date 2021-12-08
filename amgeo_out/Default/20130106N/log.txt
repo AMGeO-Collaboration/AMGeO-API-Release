@@ -99,3 +99,23 @@ Read 63 line
 [2021-11-23 04:20:37.472819] INFO: AMGeO.driver_default: 2013-01-06 13:30:00 complete
 [2021-11-23 04:20:37.485171] INFO: AMGeO.driver_default: Creating directory ./amgeo_out/Default/20130206N
 [2021-11-23 04:20:37.485655] DEBUG: AMGeO.driver_default: AMGeO default output directory: ./amgeo_out/Default/20130206N
+[2021-12-03 05:19:20.168933] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-01-06 12:30:00
+[2021-12-03 05:19:20.170402] DEBUG: AMGeO.driver_default: AMGeO default output directory: /Users/willemmirkovich/AMGeO/AMGeO-API-Release/amgeo_out/Default/20130206N
+[2021-12-03 05:19:20.172530] INFO: AMGeO.driver_default: 2013-02-06 12:30:00 complete
+[2021-12-03 05:19:20.172673] INFO: AMGeO.driver_default: 2013-02-06 13:30:00 complete
+[2021-12-03 23:02:26.532444] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-01-06 12:30:00
+[2021-12-03 23:02:26.532891] DEBUG: AMGeO.driver_default: AMGeO default output directory: /Users/willemmirkovich/AMGeO/AMGeO-API-Release/amgeo_out/Default/20130206N
+[2021-12-03 23:02:26.534551] INFO: AMGeO.driver_default: 2013-02-06 12:30:00 complete
+[2021-12-03 23:02:26.534843] INFO: AMGeO.driver_default: 2013-02-06 13:30:00 complete
+[2021-12-03 23:11:25.014203] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-01-06 12:30:00
+[2021-12-03 23:11:25.015179] DEBUG: AMGeO.driver_default: AMGeO default output directory: /Users/willemmirkovich/AMGeO/AMGeO-API-Release/amgeo_out/Default/20130206N
+[2021-12-03 23:11:25.016397] INFO: AMGeO.driver_default: 2013-02-06 12:30:00 complete
+[2021-12-03 23:11:25.016601] INFO: AMGeO.driver_default: 2013-02-06 13:30:00 complete
+[2021-12-03 23:25:57.354885] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-01-06 12:30:00
+[2021-12-03 23:25:57.356020] DEBUG: AMGeO.driver_default: AMGeO default output directory: /Users/willemmirkovich/AMGeO/AMGeO-API-Release/amgeo_out/Default/20130206N
+[2021-12-03 23:25:57.358250] INFO: AMGeO.driver_default: 2013-02-06 12:30:00 complete
+[2021-12-03 23:25:57.358608] INFO: AMGeO.driver_default: 2013-02-06 13:30:00 complete
+[2021-12-08 08:35:55.775677] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-01-06 12:30:00
+[2021-12-08 08:35:55.776353] DEBUG: AMGeO.driver_default: AMGeO default output directory: /Users/willemmirkovich/AMGeO/AMGeO-API-Release/amgeo_out/Default/20130206N
+[2021-12-08 08:35:55.777858] INFO: AMGeO.driver_default: 2013-02-06 12:30:00 complete
+[2021-12-08 08:35:55.778042] INFO: AMGeO.driver_default: 2013-02-06 13:30:00 complete

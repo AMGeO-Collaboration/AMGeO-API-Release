@@ -96,3 +96,8 @@ Read 63 line
 [2021-11-23 04:21:38.896444] INFO: AMGeO.driver_default: Omni for 2013-02-06 13:30:00
 
 [2021-11-23 04:21:39.982941] INFO: AMGeO.driver_default: 2013-02-06 13:30:00 complete
+[2021-12-03 05:19:20.175063] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-02-06 12:30:00
+[2021-12-03 23:02:26.536025] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-02-06 12:30:00
+[2021-12-03 23:11:25.017675] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-02-06 12:30:00
+[2021-12-03 23:25:57.359897] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-02-06 12:30:00
+[2021-12-08 08:35:55.778647] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-02-06 12:30:00
