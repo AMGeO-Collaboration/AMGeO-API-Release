@@ -101,3 +101,7 @@ Read 63 line
 [2021-12-03 23:11:25.017675] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-02-06 12:30:00
 [2021-12-03 23:25:57.359897] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-02-06 12:30:00
 [2021-12-08 08:35:55.778647] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-02-06 12:30:00
+[2021-12-08 09:00:04.591135] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-02-06 12:30:00
+[2021-12-08 09:03:08.107973] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-02-06 12:30:00
+[2021-12-10 22:09:59.726130] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-02-06 12:30:00
+[2021-12-10 22:13:28.520731] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-02-06 12:30:00

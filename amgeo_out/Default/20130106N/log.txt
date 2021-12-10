@@ -119,3 +119,19 @@ Read 63 line
 [2021-12-08 08:35:55.776353] DEBUG: AMGeO.driver_default: AMGeO default output directory: /Users/willemmirkovich/AMGeO/AMGeO-API-Release/amgeo_out/Default/20130206N
 [2021-12-08 08:35:55.777858] INFO: AMGeO.driver_default: 2013-02-06 12:30:00 complete
 [2021-12-08 08:35:55.778042] INFO: AMGeO.driver_default: 2013-02-06 13:30:00 complete
+[2021-12-08 09:00:04.587144] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-01-06 12:30:00
+[2021-12-08 09:00:04.587878] DEBUG: AMGeO.driver_default: AMGeO default output directory: /Users/willemmirkovich/AMGeO/AMGeO-API-Release/amgeo_out/Default/20130206N
+[2021-12-08 09:00:04.589669] INFO: AMGeO.driver_default: 2013-02-06 12:30:00 complete
+[2021-12-08 09:00:04.589796] INFO: AMGeO.driver_default: 2013-02-06 13:30:00 complete
+[2021-12-08 09:03:08.105765] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-01-06 12:30:00
+[2021-12-08 09:03:08.106224] DEBUG: AMGeO.driver_default: AMGeO default output directory: /Users/willemmirkovich/AMGeO/AMGeO-API-Release/amgeo_out/Default/20130206N
+[2021-12-08 09:03:08.107154] INFO: AMGeO.driver_default: 2013-02-06 12:30:00 complete
+[2021-12-08 09:03:08.107375] INFO: AMGeO.driver_default: 2013-02-06 13:30:00 complete
+[2021-12-10 22:09:59.718023] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-01-06 12:30:00
+[2021-12-10 22:09:59.719374] DEBUG: AMGeO.driver_default: AMGeO default output directory: /Users/willemmirkovich/AMGeO/AMGeO-API-Release/amgeo_out/Default/20130206N
+[2021-12-10 22:09:59.724916] INFO: AMGeO.driver_default: 2013-02-06 12:30:00 complete
+[2021-12-10 22:09:59.725050] INFO: AMGeO.driver_default: 2013-02-06 13:30:00 complete
+[2021-12-10 22:13:28.516165] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-01-06 12:30:00
+[2021-12-10 22:13:28.517426] DEBUG: AMGeO.driver_default: AMGeO default output directory: /Users/willemmirkovich/AMGeO/AMGeO-API-Release/amgeo_out/Default/20130206N
+[2021-12-10 22:13:28.519175] INFO: AMGeO.driver_default: 2013-02-06 12:30:00 complete
+[2021-12-10 22:13:28.519401] INFO: AMGeO.driver_default: 2013-02-06 13:30:00 complete
