@@ -1,107 +1,98 @@
-[2021-11-23 04:20:37.491951] NOTICE: AMGeO.driver_default: Loading NASA OMNIWeb Solar Wind Data for 2013-02-06 12:30:00...
-[2021-11-23 04:20:42.105058] NOTICE: AMGeO.driver_default: Initializing default electric potential solver...
-[2021-11-23 04:20:42.105156] NOTICE: AMGeO.driver_default: Loading Cousins & Shephard, 2010 (CS10) electric potential model...
-[2021-11-23 04:20:42.184911] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
-[2021-11-23 04:20:42.263762] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
-[2021-11-23 04:20:43.825620] NOTICE: AMGeO.driver_default: Loading CS10 covariance...
-[2021-11-23 04:20:43.829703] NOTICE: AMGeO.driver_default: Loading SuperMAG data for 2013-02-06 12:30:00...
-[2021-11-23 04:20:43.829816] INFO: AMGeO.observations.supermag: Reading SuperMAG Stations CSV file /Users/willemmirkovich/AMGeO/AMGeO/AMGeO/files/tables/test_amgeo_obs/supermag-stations.csv...
-[2021-11-23 04:20:43.831809] NOTICE: AMGeO.observations.supermag: Loading SuperMAG file /Users/willemmirkovich/Library/Application Support/AMGeO/20130206-supermag.txt
-[2021-11-23 04:20:43.831875] NOTICE: AMGeO.observations.supermag: Reading SuperMAG ASCII data file /Users/willemmirkovich/Library/Application Support/AMGeO/20130206-supermag.txt
-[2021-11-23 04:20:43.842342] WARNING: AMGeO.observations.supermag: SuperMAG file header format mismatch
+[2021-12-12 01:35:23.124699] NOTICE: AMGeO.driver_default: Loading NASA OMNIWeb Solar Wind Data for 2013-02-06 12:30:00...
+[2021-12-12 01:35:27.699903] NOTICE: AMGeO.driver_default: Initializing default electric potential solver...
+[2021-12-12 01:35:27.700007] NOTICE: AMGeO.driver_default: Loading Cousins & Shephard, 2010 (CS10) electric potential model...
+[2021-12-12 01:35:27.779376] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-12-12 01:35:27.862066] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-12-12 01:35:29.575182] NOTICE: AMGeO.driver_default: Loading CS10 covariance...
+[2021-12-12 01:35:29.579734] NOTICE: AMGeO.driver_default: Loading SuperMAG data for 2013-02-06 12:30:00...
+[2021-12-12 01:35:29.579834] INFO: AMGeO.observations.supermag: Reading SuperMAG Stations CSV file /Users/willemmirkovich/AMGeO/AMGeO/AMGeO/files/tables/test_amgeo_obs/supermag-stations.csv...
+[2021-12-12 01:35:29.581891] NOTICE: AMGeO.observations.supermag: Loading SuperMAG file /Users/willemmirkovich/Library/Application Support/AMGeO/20130206-supermag.txt
+[2021-12-12 01:35:29.581964] NOTICE: AMGeO.observations.supermag: Reading SuperMAG ASCII data file /Users/willemmirkovich/Library/Application Support/AMGeO/20130206-supermag.txt
+[2021-12-12 01:35:29.592186] WARNING: AMGeO.observations.supermag: SuperMAG file header format mismatch
 Expected 71 lines
 Read 63 line
-[2021-11-23 04:20:54.254656] NOTICE: AMGeO.driver_default: Loading SuperDARN data for 2013-02-06 12:30:00, hemisphere N...
-[2021-11-23 04:20:54.254858] NOTICE: AMGeO.observations.superdarn: Loading SuperDARN file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20130206N.h5
-[2021-11-23 04:20:54.254925] INFO: AMGeO.observations.superdarn: Reading HDF5 file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20130206N.h5...
-[2021-11-23 04:21:00.984221] DEBUG: AMGeO.observations.superdarn: 88924/175046 line of sight observations were made negative because they were toward the radar
-[2021-11-23 04:21:00.986158] INFO: AMGeO.observations.superdarn: Read 175046 SuperDARN Grid records
+[2021-12-12 01:35:39.994842] NOTICE: AMGeO.driver_default: Loading SuperDARN data for 2013-02-06 12:30:00, hemisphere N...
+[2021-12-12 01:35:39.995087] NOTICE: AMGeO.observations.superdarn: Loading SuperDARN file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20130206N.h5
+[2021-12-12 01:35:39.995157] INFO: AMGeO.observations.superdarn: Reading HDF5 file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20130206N.h5...
+[2021-12-12 01:35:47.306001] DEBUG: AMGeO.observations.superdarn: 88924/175046 line of sight observations were made negative because they were toward the radar
+[2021-12-12 01:35:47.308037] INFO: AMGeO.observations.superdarn: Read 175046 SuperDARN Grid records
  spanning 20130206 00:02-20130206 23:58
-[2021-11-23 04:21:00.992904] INFO: AMGeO.observations.superdarn: Created SuperDARN observation object SuperDARN electricfield:
+[2021-12-12 01:35:47.316335] INFO: AMGeO.observations.superdarn: Created SuperDARN observation object SuperDARN electricfield:
  hemisphere N,
  date 2013-2-6
-[2021-11-23 04:21:01.007912] INFO: AMGeO.driver_default: 2013-02-06 12:30:00 running
-[2021-11-23 04:21:01.008029] NOTICE: AMGeO.driver_default: Beginning AMGeO run for 2013-02-06 12:30:00...
-[2021-11-23 04:21:01.008100] DEBUG: AMGeO.update.predict: (datetime.datetime(2013, 2, 6, 12, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fefe5e6f090>)
-[2021-11-23 04:21:01.064945] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
-[2021-11-23 04:21:02.661765] DEBUG: OvationPyme.ovation_utilites: Created new solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:04.165692] DEBUG: OvationPyme.ovation_utilites: Created new solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:05.675139] DEBUG: OvationPyme.ovation_utilites: Created new solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:05.789767] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:05.789856] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:05.789925] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:05.901441] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:05.901512] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:05.901602] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:06.010279] DEBUG: OvationPyme.ovation_prime: Zeroed 5141/7680 average energieswith numflux below 5.000000e+07
-[2021-11-23 04:21:06.010354] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
-[2021-11-23 04:21:06.010398] DEBUG: OvationPyme.ovation_prime: Zeroed 6582/7680 average energies under .2 keV
-[2021-11-23 04:21:06.658372] DEBUG: OvationPyme.ovation_utilites: Created new solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:14.798064] DEBUG: AMGeO.update.predict: (datetime.datetime(2013, 2, 6, 12, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fefe5e6f090>)
-[2021-11-23 04:21:14.898299] DEBUG: AMGeO.update.predict: (datetime.datetime(2013, 2, 6, 12, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fefe5e6f090>)
-[2021-11-23 04:21:14.993466] DEBUG: AMGeO.update.predict: (datetime.datetime(2013, 2, 6, 12, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fefe5e6f090>)
-[2021-11-23 04:21:15.092328] DEBUG: AMGeO.update.predict: (datetime.datetime(2013, 2, 6, 12, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fefe5e6f090>)
-[2021-11-23 04:21:19.439622] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
-[2021-11-23 04:21:19.439749] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:19.439805] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:19.439875] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:19.564303] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:19.564403] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:19.564477] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:19.702204] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:19.719083] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:19.720932] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:19.847452] DEBUG: OvationPyme.ovation_prime: Zeroed 5141/7680 average energieswith numflux below 5.000000e+07
-[2021-11-23 04:21:19.847560] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
-[2021-11-23 04:21:19.847612] DEBUG: OvationPyme.ovation_prime: Zeroed 6582/7680 average energies under .2 keV
-[2021-11-23 04:21:20.207375] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:22.107153] INFO: AMGeO.driver_default: Omni for 2013-02-06 12:30:00
+[2021-12-12 01:35:47.338915] INFO: AMGeO.driver_default: 2013-02-06 12:30:00 running
+[2021-12-12 01:35:47.339261] NOTICE: AMGeO.driver_default: Beginning AMGeO run for 2013-02-06 12:30:00...
+[2021-12-12 01:35:47.339402] DEBUG: AMGeO.update.predict: (datetime.datetime(2013, 2, 6, 12, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fae66f8fb10>)
+[2021-12-12 01:35:47.396853] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
+[2021-12-12 01:35:49.004710] DEBUG: OvationPyme.ovation_utilites: Created new solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:35:50.637904] DEBUG: OvationPyme.ovation_utilites: Created new solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:35:52.265907] DEBUG: OvationPyme.ovation_utilites: Created new solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:35:52.391168] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:35:52.391281] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:35:52.391357] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:35:52.515238] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:35:52.515348] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:35:52.515452] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:35:52.636924] DEBUG: OvationPyme.ovation_prime: Zeroed 5141/7680 average energieswith numflux below 5.000000e+07
+[2021-12-12 01:35:52.637033] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
+[2021-12-12 01:35:52.637084] DEBUG: OvationPyme.ovation_prime: Zeroed 6582/7680 average energies under .2 keV
+[2021-12-12 01:35:53.412598] DEBUG: OvationPyme.ovation_utilites: Created new solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:01.862616] DEBUG: AMGeO.update.predict: (datetime.datetime(2013, 2, 6, 12, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fae66f8fb10>)
+[2021-12-12 01:36:01.960711] DEBUG: AMGeO.update.predict: (datetime.datetime(2013, 2, 6, 12, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fae66f8fb10>)
+[2021-12-12 01:36:02.068771] DEBUG: AMGeO.update.predict: (datetime.datetime(2013, 2, 6, 12, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fae66f8fb10>)
+[2021-12-12 01:36:02.174055] DEBUG: AMGeO.update.predict: (datetime.datetime(2013, 2, 6, 12, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fae66f8fb10>)
+[2021-12-12 01:36:07.265728] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
+[2021-12-12 01:36:07.265858] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:07.265917] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:07.265990] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:07.414114] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:07.414267] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:07.414360] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:07.565446] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:07.565584] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:07.565680] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:07.703775] DEBUG: OvationPyme.ovation_prime: Zeroed 5141/7680 average energieswith numflux below 5.000000e+07
+[2021-12-12 01:36:07.703897] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
+[2021-12-12 01:36:07.703949] DEBUG: OvationPyme.ovation_prime: Zeroed 6582/7680 average energies under .2 keV
+[2021-12-12 01:36:08.220878] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:10.620286] INFO: AMGeO.driver_default: Omni for 2013-02-06 12:30:00
 
-[2021-11-23 04:21:22.724889] INFO: AMGeO.driver_default: 2013-02-06 12:30:00 complete
-[2021-11-23 04:21:22.726070] INFO: AMGeO.driver_default: 2013-02-06 13:30:00 running
-[2021-11-23 04:21:22.726142] NOTICE: AMGeO.driver_default: Beginning AMGeO run for 2013-02-06 13:30:00...
-[2021-11-23 04:21:22.726200] DEBUG: AMGeO.update.predict: (datetime.datetime(2013, 2, 6, 13, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fefe5e6f090>)
-[2021-11-23 04:21:22.776701] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
-[2021-11-23 04:21:22.776914] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:22.777065] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:22.777157] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:22.905698] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:22.905804] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:22.905877] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:23.021191] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:23.021279] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:23.021342] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:23.132490] DEBUG: OvationPyme.ovation_prime: Zeroed 5141/7680 average energieswith numflux below 5.000000e+07
-[2021-11-23 04:21:23.132575] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
-[2021-11-23 04:21:23.132622] DEBUG: OvationPyme.ovation_prime: Zeroed 6582/7680 average energies under .2 keV
-[2021-11-23 04:21:23.487399] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:31.445532] DEBUG: AMGeO.update.predict: (datetime.datetime(2013, 2, 6, 13, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fefe5e6f090>)
-[2021-11-23 04:21:31.547075] DEBUG: AMGeO.update.predict: (datetime.datetime(2013, 2, 6, 13, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fefe5e6f090>)
-[2021-11-23 04:21:31.644493] DEBUG: AMGeO.update.predict: (datetime.datetime(2013, 2, 6, 13, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fefe5e6f090>)
-[2021-11-23 04:21:31.745655] DEBUG: AMGeO.update.predict: (datetime.datetime(2013, 2, 6, 13, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fefe5e6f090>)
-[2021-11-23 04:21:36.278114] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
-[2021-11-23 04:21:36.278242] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:36.278301] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:36.278372] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:36.402450] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:36.402558] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:36.402636] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:36.518248] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:36.518344] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:36.518407] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:36.628446] DEBUG: OvationPyme.ovation_prime: Zeroed 5141/7680 average energieswith numflux below 5.000000e+07
-[2021-11-23 04:21:36.628526] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
-[2021-11-23 04:21:36.628571] DEBUG: OvationPyme.ovation_prime: Zeroed 6582/7680 average energies under .2 keV
-[2021-11-23 04:21:36.976392] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
-[2021-11-23 04:21:38.896444] INFO: AMGeO.driver_default: Omni for 2013-02-06 13:30:00
+[2021-12-12 01:36:11.401133] INFO: AMGeO.driver_default: 2013-02-06 12:30:00 complete
+[2021-12-12 01:36:11.402567] INFO: AMGeO.driver_default: 2013-02-06 13:30:00 running
+[2021-12-12 01:36:11.402650] NOTICE: AMGeO.driver_default: Beginning AMGeO run for 2013-02-06 13:30:00...
+[2021-12-12 01:36:11.402764] DEBUG: AMGeO.update.predict: (datetime.datetime(2013, 2, 6, 13, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fae66f8fb10>)
+[2021-12-12 01:36:11.452368] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
+[2021-12-12 01:36:11.452503] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:11.452583] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:11.452653] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:11.603653] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:11.603766] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:11.603845] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:11.759333] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:11.759504] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:11.759606] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:11.950858] DEBUG: OvationPyme.ovation_prime: Zeroed 5141/7680 average energieswith numflux below 5.000000e+07
+[2021-12-12 01:36:11.951014] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
+[2021-12-12 01:36:11.951084] DEBUG: OvationPyme.ovation_prime: Zeroed 6582/7680 average energies under .2 keV
+[2021-12-12 01:36:12.677794] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:22.763527] DEBUG: AMGeO.update.predict: (datetime.datetime(2013, 2, 6, 13, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fae66f8fb10>)
+[2021-12-12 01:36:22.867928] DEBUG: AMGeO.update.predict: (datetime.datetime(2013, 2, 6, 13, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fae66f8fb10>)
+[2021-12-12 01:36:22.965938] DEBUG: AMGeO.update.predict: (datetime.datetime(2013, 2, 6, 13, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fae66f8fb10>)
+[2021-12-12 01:36:23.069141] DEBUG: AMGeO.update.predict: (datetime.datetime(2013, 2, 6, 13, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fae66f8fb10>)
+[2021-12-12 01:36:28.346508] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
+[2021-12-12 01:36:28.346645] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:28.346706] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:28.346781] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:28.472457] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:28.472558] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:28.472633] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:28.591658] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:28.591759] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:28.591826] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:28.717396] DEBUG: OvationPyme.ovation_prime: Zeroed 5141/7680 average energieswith numflux below 5.000000e+07
+[2021-12-12 01:36:28.717525] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
+[2021-12-12 01:36:28.717580] DEBUG: OvationPyme.ovation_prime: Zeroed 6582/7680 average energies under .2 keV
+[2021-12-12 01:36:29.132002] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2013-02-05 00:30:00-2013-02-08 00:30:00
+[2021-12-12 01:36:31.253511] INFO: AMGeO.driver_default: Omni for 2013-02-06 13:30:00
 
-[2021-11-23 04:21:39.982941] INFO: AMGeO.driver_default: 2013-02-06 13:30:00 complete
-[2021-12-03 05:19:20.175063] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-02-06 12:30:00
-[2021-12-03 23:02:26.536025] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-02-06 12:30:00
-[2021-12-03 23:11:25.017675] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-02-06 12:30:00
-[2021-12-03 23:25:57.359897] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-02-06 12:30:00
-[2021-12-08 08:35:55.778647] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-02-06 12:30:00
-[2021-12-08 09:00:04.591135] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-02-06 12:30:00
-[2021-12-08 09:03:08.107973] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-02-06 12:30:00
-[2021-12-10 22:09:59.726130] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-02-06 12:30:00
-[2021-12-10 22:13:28.520731] INFO: AMGeO.driver_default: No new datetimes to complete for 2013-02-06 12:30:00
+[2021-12-12 01:36:32.353237] INFO: AMGeO.driver_default: 2013-02-06 13:30:00 complete
