@@ -23,7 +23,7 @@ Next, run
 # get the notebook image
 docker pull ghcr.io/amgeo-collaboration/amgeo-api-release-notebook
 # run the notebook
-docker run -p 7777:7777 ghcr.io/amgeo-collaboration/amgeo-api-release-notebook
+docker run -it -p 7777:7777 ghcr.io/amgeo-collaboration/amgeo-api-release-notebook
 ```
 
 Once the container is running, navigate to ```localhost:7777``` and enter ```test``` as the password. 
